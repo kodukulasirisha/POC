@@ -28,12 +28,12 @@ jobs:
 
       - name: Run schemachange
         env:
-          SF_ACCOUNT: df75071.central-india.azure
-          SF_DEV_USERNAME: SIRISHA
+          SF_ACCOUNT: ${{ secrets.SF_ACCOUNT }}
+          SF_DEV_USERNAME: ${{ secrets.SF_DEV_USERNAME }}
           SF_DEV_ROLE: ${{ secrets.SF_DEV_ROLE }}
           SF_WAREHOUSE: ${{ secrets.SF_WAREHOUSE }}
-          SF_DEV_DB: MP_RAW
-          SNOWFLAKE_PASSWORD: Sirisha@123
+          SF_DEV_DB: ${{ secrets.SF_DEV_DB }}
+          SNOWFLAKE_PASSWORD: ${{ secrets.SF_DEV_PASSWORD }}
           ENV_WH: ${{ secrets.DEV_ENV_WH }}
 
         run: |
