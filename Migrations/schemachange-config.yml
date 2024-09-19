@@ -1,0 +1,4 @@
+config-version: 1
+root-folder: Migrations
+vars:
+ warehouse_name: {{env_var('ENV_WH')}}
