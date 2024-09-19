@@ -4,4 +4,4 @@ CREATE TASK test_task
  SCHEDULE = '60 minute'
 AS
 SELECT CURRENT_TIMESTAMP;
-alter task test_task suspend;
+alter task test_task suspend; 
