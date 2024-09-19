@@ -1,6 +1,8 @@
 name: snowflake-devops-demo-DEV
 # Controls when the action will run. 
 on:
+  push:
+    branches: [ "main" ]
   pull_request:
    branches:
     - "DEV"
