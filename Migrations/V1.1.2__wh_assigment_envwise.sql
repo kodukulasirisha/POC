@@ -1,4 +1,4 @@
-use schema REP_VIEW;
+use schema RAW;
 CREATE TASK test_task
  WAREHOUSE = {{warehouse_name}} //warehouse name value will change according to the       workflow file which gets triggered according to the branch
  SCHEDULE = '60 minute'
