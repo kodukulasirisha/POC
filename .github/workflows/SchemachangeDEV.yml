@@ -3,7 +3,7 @@ name: snowflake-devops-demo-DEV
 on:
   pull_request:
    branches:
-    - "DEV"
+    - "test_2"
    types: [closed]
    
    paths:
