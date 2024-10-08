@@ -4,5 +4,6 @@ CREATE or REPLACE TABLE TEST
    ID NUMBER,
    AMOUNT NUMBER,
    quantiy NUMBER,
-   name varchar
+   name varchar,
+   last_name varchar
 );
