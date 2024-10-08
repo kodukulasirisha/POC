@@ -1,4 +1,4 @@
 config-version: 1
 root-folder: Migrations
 vars:
- warehouse_name: {{env_var('COMPUTE_WH')}}
+ warehouse_name: {{DEV_ENV_WH('COMPUTE_WH')}}
