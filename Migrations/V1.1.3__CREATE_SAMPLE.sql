@@ -3,5 +3,6 @@ CREATE TABLE TEST
 (
    ID NUMBER,
    AMOUNT NUMBER,
-   quantiy number
+   quantiy NUMBER,
+   name varchar
 );
