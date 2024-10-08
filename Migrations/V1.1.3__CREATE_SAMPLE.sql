@@ -2,5 +2,6 @@ USE SCHEMA CI_CD_POC;
 CREATE TABLE TEST
 (
    ID NUMBER,
-   AMOUNT NUMBER
+   AMOUNT NUMBER,
+   quantiy number
 );
